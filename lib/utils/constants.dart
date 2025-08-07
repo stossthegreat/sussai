@@ -50,6 +50,8 @@ class AppConstants {
     RelationshipContext(id: 'Family', label: '👨‍👩‍👧‍👦 Family', desc: 'Family dynamics'),
     RelationshipContext(id: 'Roommate', label: '🏠 Roommate', desc: 'Living situations'),
     RelationshipContext(id: 'Stranger', label: '👤 Stranger', desc: 'Unknown people'),
+    RelationshipContext(id: 'Boss', label: '👔 Boss', desc: 'Supervisor relationships'),
+    RelationshipContext(id: 'Acquaintance', label: '🤝 Acquaintance', desc: 'Casual connections'),
   ];
 
   // 🚀 WHISPERFIRE ANALYSIS GOALS
@@ -61,9 +63,11 @@ class AppConstants {
 
   // 🚀 WHISPERFIRE TONE STYLES
   static const List<ToneStyle> toneStyles = [
-    ToneStyle(id: 'brutal', label: '🔥 Brutal', desc: 'No mercy'),
-    ToneStyle(id: 'soft', label: '💭 Soft', desc: 'Gentle truth'),
+    ToneStyle(id: 'serious', label: '⚖️ Serious', desc: 'Firm & credible'),
     ToneStyle(id: 'clinical', label: '🧠 Clinical', desc: 'Cold facts'),
+    ToneStyle(id: 'compassionate', label: '💚 Compassionate', desc: 'Gentle truth'),
+    ToneStyle(id: 'mature', label: '🧠 Mature', desc: 'Emotionally intelligent'),
+    ToneStyle(id: 'savage', label: '🔥 Savage', desc: 'No mercy'),
   ];
 
   // 🚀 WHISPERFIRE COMEBACK TONES
